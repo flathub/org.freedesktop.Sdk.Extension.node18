@@ -1,7 +1,7 @@
 app-id: org.freedesktop.Sdk.Extension.node18
-branch: '22.08beta'
+branch: '22.08'
 runtime: org.freedesktop.Sdk
-runtime-version: '22.08beta'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 build-extension: true
 separate-locales: false
@@ -20,8 +20,8 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/v18.4.0/node-v18.4.0.tar.xz
-        sha256: 94d6f19a970361f8c8ad17450604095389f51ca6a00dcde59c21f373e95abbb5
+        url: https://nodejs.org/dist/v18.16.0/node-v18.16.0.tar.xz
+        sha256: 33d81a233e235a509adda4a4f2209008d04591979de6b3f0f67c1c906093f118
         x-checker-data:
           type: json
           url: https://nodejs.org/dist/index.json
