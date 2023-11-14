@@ -47,8 +47,8 @@ modules:
       - ln -sr ${FLATPAK_DEST}/share/yarn/bin/yarnpkg ${FLATPAK_DEST}/bin/yarnpkg
     sources:
       - type: archive
-        url: https://github.com/yarnpkg/yarn/releases/download/v1.22.20/yarn-v1.22.20.tar.gz
-        sha256: b0c3b56a1f6f35ab5045336f357c03969a60b0e6bedfc06dd61eb4d9ca141a94
+        url: https://github.com/yarnpkg/yarn/releases/download/v1.22.21/yarn-v1.22.21.tar.gz
+        sha256: a55bb4e85405f5dfd6e7154a444e7e33ad305d7ca858bad8546e932a6688df08
         x-checker-data:
           type: json
           url: https://api.github.com/repos/yarnpkg/yarn/releases/latest
