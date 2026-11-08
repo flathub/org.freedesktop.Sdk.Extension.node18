@@ -20,8 +20,8 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/v18.12.1/node-v18.12.1.tar.xz
-        sha256: 4fa406451bc52659a290e52cfdb2162a760bd549da4b8bbebe6a29f296d938df
+        url: https://nodejs.org/dist/v18.20.8/node-v18.20.8.tar.xz
+        sha256: 36a7bf1a76d62ce4badd881ee5974a323c70e1d8d19165732684e145632460d9
         x-checker-data:
           type: json
           url: https://nodejs.org/dist/index.json
@@ -47,8 +47,8 @@ modules:
       - ln -sr ${FLATPAK_DEST}/share/yarn/bin/yarnpkg ${FLATPAK_DEST}/bin/yarnpkg
     sources:
       - type: archive
-        url: https://github.com/yarnpkg/yarn/releases/download/v1.22.19/yarn-v1.22.19.tar.gz
-        sha256: 732620bac8b1690d507274f025f3c6cfdc3627a84d9642e38a07452cc00e0f2e
+        url: https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-v1.22.22.tar.gz
+        sha256: 88268464199d1611fcf73ce9c0a6c4d44c7d5363682720d8506f6508addf36a0
         x-checker-data:
           type: json
           url: https://api.github.com/repos/yarnpkg/yarn/releases/latest
